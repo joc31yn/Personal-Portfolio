@@ -7,7 +7,7 @@ import pyLogo from '@/imgs/python.png';
 import webdev from '@/imgs/webdev.png';
 import racketLogo from '@/imgs/racket.png';
 import cLogo from '@/imgs/c.png';
-import vsCode from '@/imgs/vsCode.png';
+import vsCode from '@/imgs/vscode.png';
 import eclipse from '@/imgs/eclipse.png';
 import github from '@/imgs/github.png';
 import reactLogo from '@/imgs/react.png';
