@@ -43,8 +43,8 @@ function Contact() {
                 <h2>I would love to meet you!</h2>
             </div> */}
                 {/* w-56 sm:w-72 lg:w-96 */}
-                <div className="flex flex-row items-center justify-center gap-x-5">
-                    <div className="flex flex-col w-1/3 max-w-lg px-[2%] min-w-56">
+                <div className="flex flex-row items-center gap-x-5 px-[2%]">
+                    <div className="flex flex-col w-1/3 max-w-lg min-w-56">
                         <form onSubmit={onSubmit} className="w-full bg-blue-100 shadow-[0_0_1rem_rgba(0,0,0,0.05)] py-3.5 px-5 rounded-lg drop-shadow-xl pb-[5%]">
                             <h2 className="font-bold text-center text-2xl">Contact Form</h2>
                             <div className="my-3">
@@ -63,7 +63,7 @@ function Contact() {
                             <ContactLogos />
                         </form>
                     </div>
-                    <Image src ={mail} className = "rounded-xl h-full" alt = "cool image" />
+                    <Image src ={mail} className = "rounded-xl h-full" alt = "mail gif" />
                 </div>
             </div>
         </>
